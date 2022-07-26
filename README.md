@@ -13,9 +13,11 @@ The final project will be split into 2 sections: Testing section and SQL section
 Tools used:
 
 Functional specifications
+
 -> enter here the functional specifications created in JIRA
 
 1 Testing section
+
 1.1 Test Planning
 
 The Test Plan is designed to describe all details of testing for the X module from the OrangeHRM application.
