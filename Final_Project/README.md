@@ -6,7 +6,7 @@ Application under test: [https://opensource-demo.orangehrmlive.com/](https://ope
 
 API Documentation: [https://orangehrm.github.io/orangehrm-api-doc/](https://orangehrm.github.io/orangehrm-api-doc/)
 
-The final project will be split into 2 sections: [Testing section]() and [SQL section]().
+The final project will be split into 2 sections: [Testing section](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/README.md) and [SQL section]().
 
 Tools used: JIRA, Zephyr Squad, Postman, MySQL.
 
