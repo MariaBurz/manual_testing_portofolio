@@ -111,7 +111,7 @@ The test cases with steps can be viewed here: [JIRA_TestCases.pdf](https://githu
 For the OrangeHRM API, the following checklist was generated: 
 
 ![PostmanSummary1](https://user-images.githubusercontent.com/110056890/181925221-7aacd662-608d-4539-8a6f-1ca75ad551c8.png)
-![PostmanSummary2](https://user-images.githubusercontent.com/110056890/181925228-6b0c57e1-0ca4-4b3c-a001-f06e5e336975.png)
+![PostmanSummary2](https://user-images.githubusercontent.com/110056890/181925518-ca1abb4c-ffdd-4017-b0d9-45235cf65969.png)
 
 ## 1.5 Test Implementation
 
