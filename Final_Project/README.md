@@ -130,7 +130,7 @@ Bugs have been created based on the failed tests. The complete bug reports can b
 
 API tests are executed based on the checklist. 
 The collection used can be found here: [JSON file](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/orangeHRM.postman_test_run.json) with the collection of requests created for the OrangeHRM API.
-The results of the test in Postman can be seen here: [Tests_Results_Postman]()
+The results of the test in Postman can be seen here: [Tests_Results_Postman](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Postman_TestResults.pdf)
 
 ## 1.7 Test Completion
 
