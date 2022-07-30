@@ -120,6 +120,7 @@ Only 50 characters are allowed for "Name" field
 Relationship "parent" is missing
 API tests are executed based on the checklist. The collection used can be found here: JSON file with the collection of requests created for the Dependents API
 Full regression testing is needed after the bugs are fixed
+
 Test cases are executed on the created test Cycle summary: cycle_summary_execution.pdf
 Bugs have been created based on the failed tests. The complete bug reports can be found here: created_bugs.pdf
 enter here bug titles
@@ -140,7 +141,9 @@ A number of 23 test cases were planned for execution and all of them were execut
 A number of 5 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
 
 Exit criteria was evaluated and passed
-The traceability matrix was generated and can be found here: Traceability_matrix.csv
+
+The traceability matrix was generated and can be found here: [Traceability_matrix]()
+
 Test execution chart was generated, the final report shows.... -> describe the final report
 -> enter here test execution report/chart
 
