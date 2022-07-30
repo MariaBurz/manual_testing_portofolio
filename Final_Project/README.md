@@ -108,28 +108,22 @@ Test cases:
 
 The test cases with steps can be viewed here: [JIRA_TestCases.pdf](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_OrangeHRMTestCases.pdf)
 
-For the OrangeHRM API, the following checklist was generated: API_test_checklist.csv
+For the OrangeHRM API, the following checklist was generated: [API summary]()()
 
 ## 1.5 Test Implementation
 
 * Testing environment is up and running: [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
-* Access to the testing environment is given: Username : Admin | Password : admin123
-* Cycle summary was created
-* Test cases were added to the cycle summary
-* Postman collection with the dependents API methods was created
-* Authorization token was created for accessing the API
+* Access to the testing environment is given: Username : Admin | Password : admin123;
+* Cycle summary was created;
+* Test cases were added to the cycle summary;
+* Postman collection with the dependents API methods was created;
+* Authorization token was created for accessing the API.
 
 ## 1.6 Test Execution
 
 Test cases are executed on the created test Cycle summary: [UserManagementModule](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_CycleSummary_UserManagement.pdf), [JobModule](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_CycleSummary_JobModule.pdf), [UserInteraction](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_CycleSummary_UserInteraction.pdf)
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: [Admin_Module_Bugs](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix_Bugs.pdf)
-
-Date format is not dd/mm/yyyy
-Future "Date of Birth" can be selected from calendar
-Only 50 characters are allowed for "Please Specify" field
-Only 50 characters are allowed for "Name" field
-Relationship "parent" is missing
 
 API tests are executed based on the checklist. 
 The collection used can be found here: JSON file with the collection of requests created for the OrangeHRM API
