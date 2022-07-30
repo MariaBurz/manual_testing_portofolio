@@ -121,17 +121,18 @@ For the OrangeHRM API, the following checklist was generated: API_test_checklist
 
 ## 1.6 Test Execution
 
-Test cases are executed on the created test Cycle summary: Dependents_cycle_summary_execution.pdf
+Test cases are executed on the created test Cycle summary: [UserManagementModule](), [JobModule](), [UserInteraction]()
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: [Admin_Module_Bugs]()
+Bugs have been created based on the failed tests. The complete bug reports can be found here: [Admin_Module_Bugs](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix_Bugs.pdf)
+
 Date format is not dd/mm/yyyy
 Future "Date of Birth" can be selected from calendar
 Only 50 characters are allowed for "Please Specify" field
 Only 50 characters are allowed for "Name" field
 Relationship "parent" is missing
+
 API tests are executed based on the checklist. 
-The collection used can be found here: JSON file with the collection of requests created for the Dependents API
-Full regression testing is needed after the bugs are fixed
+The collection used can be found here: JSON file with the collection of requests created for the OrangeHRM API
 
 ## 1.7 Test Completion
 
