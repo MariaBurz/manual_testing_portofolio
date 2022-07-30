@@ -73,8 +73,6 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 
 Multiple reports were generated. The following report was generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report reflects the proportion of the passed and failed tests. 
 
-![Bugs](https://user-images.githubusercontent.com/110056890/181917351-eddaabf5-f97a-43c4-b131-3ef5fa402732.png)
-
 ![JIRAReport_OrangeHRM](https://user-images.githubusercontent.com/110056890/181923881-80af38b3-eb28-4b27-9f83-6545fa3bbe7c.png)
 
 ## 1.3 Test Analysis
@@ -125,7 +123,7 @@ For the OrangeHRM API, the following checklist was generated: API_test_checklist
 
 Test cases are executed on the created test Cycle summary: Dependents_cycle_summary_execution.pdf
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: Dependents_created_bugs.pdf
+Bugs have been created based on the failed tests. The complete bug reports can be found here: [Admin_Module_Bugs]()
 Date format is not dd/mm/yyyy
 Future "Date of Birth" can be selected from calendar
 Only 50 characters are allowed for "Please Specify" field
@@ -155,6 +153,8 @@ A number of 18 test cases were planned for execution and all of them were execut
 
 Test execution chart was generated and the final report shows that a number of 6 tests have failed of a total of 18.
 Thereby, a number of 6 total bugs were found, from which the priority is as follow: 1 is highest, 3 are medium and 2 are low.
+
+![Bugs](https://user-images.githubusercontent.com/110056890/181924498-d10803f7-7677-42aa-a73f-28151c192150.png)
 
 As the Exit criteria were not met and satisfied, is suggested to go back to the developer team and get done the bugs 'in progress', then the Testing team will retest the test cases in question.
 
