@@ -77,16 +77,26 @@ Multiple reports were generated. The following report was generated to reflect t
 
 ## 1.3 Test Analysis
 
+### Review - Admin Module “User Management” and “Job”
+
+-	The color of the “Cancel” button seems to be disabled;
+-	The “delete” button appear to be active even though we didn’t check a box next to the “Username”;
+-	Figure 1.5. Job Title List is not complete, and we cannot see if the filter exists to “Job Description”. Also, in this picture, the “Job Specification” and “Note” are missing.
+-	There is no specification about what kind of document the users can upload by clicking the “Browse” button from “Add Job title” window; 
+-	The maximum number of characters from “Note” is not specified; 
+-	On the “Pay grade” module, there is no consistency between screenshots. Figure 1.7 has defined a level 3 grade with minimum and maximum salary, below on figure 1.8 there is defined a level 1 grade with the same minimum and maximum salary. 
+-	The open windows with clear demarcation of different sections and different actions to be make, doesn’t give us a user friendly interface;
+-	On the “Work Shift” module, if we want to add a new work shift, we should have work hours “from hour” “to hour”;
+
+### Test Conditions
 The testing process will be executed based on the above requirements for the Admin Module. The following test conditions were found:
 
-Enter data only for mandatory fields and check that the dependant is created/updated
-Enter data for all available fields and check that the dependant is created/updated
-Leave mandatory fields empty and check that the dependant cannot be created/updated
-View dependant details and check they are correct
-View all dependants in a list
-Check all validation constraints for the fields
-
-
+Enter data only for mandatory fields and check that the user is created;
+Leave mandatory fields empty and check that the user cannot be created;
+Upload file that is larger that the allowed size; 
+Checking that the app meets the specification from business requirements;
+View the color and format of the buttons;
+View the page at a different resolution.
 
 ## 1.4 Test Design
 
@@ -118,7 +128,8 @@ Future "Date of Birth" can be selected from calendar
 Only 50 characters are allowed for "Please Specify" field
 Only 50 characters are allowed for "Name" field
 Relationship "parent" is missing
-API tests are executed based on the checklist. The collection used can be found here: JSON file with the collection of requests created for the Dependents API
+API tests are executed based on the checklist. 
+The collection used can be found here: JSON file with the collection of requests created for the Dependents API
 Full regression testing is needed after the bugs are fixed
 
 Test cases are executed on the created test Cycle summary: cycle_summary_execution.pdf
@@ -133,17 +144,21 @@ enter here bug titles
 
 ![TracebilityMatrix_UserInteraction](https://user-images.githubusercontent.com/110056890/181340251-32b93998-3991-4faa-ba69-822f503e7f3e.png)
 
-Exit criteria was evaluated and a couple of bugs are in progress
+Exit criteria was evaluated and a couple of bugs are in progress.
 
 The traceability matrix was generated and can be found here: [Traceability_matrix](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix.pdf)
+
+Thereby, a number of 6 total bugs were found, from which the priority is as follow: 1 is highest, 3 are medium and 2 are low.
 
 Test execution chart was generated, the final report shows:
 
 ![JIRAReport_OrangeHRM](https://user-images.githubusercontent.com/110056890/181916356-5050fc1f-6cc1-43cc-bd14-ab8fc871c824.png)
 
 A number of 18 test cases were planned for execution and all of them were executed.
+
 Test execution chart was generated and the final report shows that a number of 6 tests have failed of a total of 18.
-Thereby, a number of 6 total bugs were found, from which the priority is as follow: 1 is highest, 3 are medium and 2 are low.
+
+
 As the Exit criteria were not met and satisfied, is suggested to go back to the developer team and get done the bugs 'in progress', then the Testing team will retest the test cases in question.
 
 # 2 SQL section
