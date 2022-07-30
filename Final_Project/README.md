@@ -148,4 +148,4 @@ Test execution chart was generated, the final report shows.... -> describe the f
 
 # 2 SQL section
 
-In this section I've created a database named 'orangehrm' and  3 tables named 'users', 'job' and 'grade' with all the columns needed to save data per specifications. I've performed different queries inside the sql file:  orangeHRM.sql [orangeHRM]() 
+In this section I've created a database named 'orangehrm' and  3 tables named 'users', 'job' and 'grade' with all the columns needed to save data per specifications. I've performed different queries inside the sql file: [orangeHRM.sql](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/OrangeHRM.sql)
