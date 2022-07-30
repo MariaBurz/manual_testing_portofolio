@@ -1,0 +1,893 @@
+{
+	"id": "37380ae0-c3cc-4d56-8466-51047f72634f",
+	"name": "orangeHRM",
+	"timestamp": "2022-07-28T19:50:01.129Z",
+	"collection_id": "20799052-b6658872-586c-4648-ba8d-012bb20af75f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 38,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3e2bd79c-c7a7-4cde-b444-85baa79d2b9d",
+			"name": "generateToken1",
+			"url": "https://opensource-demo.orangehrmlive.com/index.php/oauth/issueToken",
+			"time": 523,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				523
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8bb873e7-c911-4a81-b6e8-2baa0456f509",
+			"name": "Users",
+			"url": "https://opensource-demo.orangehrmlive.com//api/v1/user",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the status code is 200": true,
+				"Check that the response it's an object": true,
+				"Check that the response contains expected fields": true,
+				"Check the name of the first record is adashaa": true
+			},
+			"testPassFailCounts": {
+				"Check that the status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the response it's an object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the response contains expected fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the name of the first record is adashaa": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Check that the status code is 200": true,
+					"Check that the response it's an object": true,
+					"Check that the response contains expected fields": true,
+					"Check the name of the first record is adashaa": true
+				}
+			]
+		},
+		{
+			"id": "eee879bd-b948-484b-8d35-650c4334a537",
+			"name": "OrganizationCountry",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/organization?country=US",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check the country of the first record is US": true
+			},
+			"testPassFailCounts": {
+				"Check the country of the first record is US": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Check the country of the first record is US": true
+				}
+			]
+		},
+		{
+			"id": "3720c311-e3eb-4edd-89d6-301ab261bf7b",
+			"name": "EmployeeSearch",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/search",
+			"time": 471,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check the name of the first record": true,
+				"Person is Admin A": true,
+				"Person has id 54 and is Admin A": true
+			},
+			"testPassFailCounts": {
+				"Check the name of the first record": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person is Admin A": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person has id 54 and is Admin A": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				471
+			],
+			"allTests": [
+				{
+					"Check the name of the first record": true,
+					"Person is Admin A": true,
+					"Person has id 54 and is Admin A": true
+				}
+			]
+		},
+		{
+			"id": "010777a6-39a9-452a-b010-bff5217d1c39",
+			"name": "EmployeeIdJobDetail",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/:id/job-detail",
+			"time": 319,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Check that the status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Check that the status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"Check that the status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "c7c54c61-89d0-42e8-a457-c3d06d043ee8",
+			"name": "EmployeeIdJobDetail",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/job-detail",
+			"time": 225,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Check the negative message response": true
+			},
+			"testPassFailCounts": {
+				"Check the negative message response": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"Check the negative message response": true
+				}
+			]
+		},
+		{
+			"id": "e37e47e2-e0fa-4f37-9314-c1d86be8e4b3",
+			"name": "EmployeeIdJobDetail",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/job-detail",
+			"time": 249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the status code is 200": true,
+				"Check the message response that the entry is successfully saved": true
+			},
+			"testPassFailCounts": {
+				"Check that the status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the message response that the entry is successfully saved": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				249
+			],
+			"allTests": [
+				{
+					"Check that the status code is 200": true,
+					"Check the message response that the entry is successfully saved": true
+				}
+			]
+		},
+		{
+			"id": "03255684-42a9-485e-b01a-57731a9520e1",
+			"name": "Login",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/login",
+			"time": 561,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"The response has the username field present": true,
+				"Check that the login is true": true
+			},
+			"testPassFailCounts": {
+				"The response has the username field present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the login is true": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				561
+			],
+			"allTests": [
+				{
+					"The response has the username field present": true,
+					"Check that the login is true": true
+				}
+			]
+		},
+		{
+			"id": "1679c2bc-1e84-4aa5-a1e2-b8251b941ff7",
+			"name": "EmployeeId",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/15",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check the response message": true
+			},
+			"testPassFailCounts": {
+				"Check the response message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				245
+			],
+			"allTests": [
+				{
+					"Check the response message": true
+				}
+			]
+		},
+		{
+			"id": "c0b2c6f9-c3f0-4e14-b764-897b7e169a24",
+			"name": "EmployeeId",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/15",
+			"time": 238,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check the response message confirmation of updated field": true
+			},
+			"testPassFailCounts": {
+				"Check the response message confirmation of updated field": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				238
+			],
+			"allTests": [
+				{
+					"Check the response message confirmation of updated field": true
+				}
+			]
+		},
+		{
+			"id": "1fbaf076-ec73-4b8a-8a72-94e42c8f7d8e",
+			"name": "EmployeeId",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/15",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response contains expected fields": true,
+				"Check that Elena's Pop middleName is Ana": true
+			},
+			"testPassFailCounts": {
+				"Response contains expected fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that Elena's Pop middleName is Ana": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Response contains expected fields": true,
+					"Check that Elena's Pop middleName is Ana": true
+				}
+			]
+		},
+		{
+			"id": "b5e61832-4b03-4d51-a208-9ae51c535c75",
+			"name": "EmployeeIdDepended",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/dependent",
+			"time": 219,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Check the response message about mandatory field": true
+			},
+			"testPassFailCounts": {
+				"Check the response message about mandatory field": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Check the response message about mandatory field": true
+				}
+			]
+		},
+		{
+			"id": "3e32b403-ae7f-4496-9179-15ffff263206",
+			"name": "EmployeeIdDepended",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/dependent",
+			"time": 235,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check the response message has a sequenceNumber": true
+			},
+			"testPassFailCounts": {
+				"Check the response message has a sequenceNumber": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				235
+			],
+			"allTests": [
+				{
+					"Check the response message has a sequenceNumber": true
+				}
+			]
+		},
+		{
+			"id": "6134273a-26c4-45e9-921a-591c6dea0f0a",
+			"name": "EmployeeIdDepended",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/dependent",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check the response message of updated fields": true
+			},
+			"testPassFailCounts": {
+				"Check the response message of updated fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"Check the response message of updated fields": true
+				}
+			]
+		},
+		{
+			"id": "fdc7a20f-df71-475c-a866-5883af7e901c",
+			"name": "EmployeeIdDepended",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/dependent",
+			"time": 225,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the status code is 200": true,
+				"Check thet the response has the relationship field present": true,
+				"Check the response message of updated field relationship": true
+			},
+			"testPassFailCounts": {
+				"Check that the status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check thet the response has the relationship field present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the response message of updated field relationship": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"Check that the status code is 200": true,
+					"Check thet the response has the relationship field present": true,
+					"Check the response message of updated field relationship": true
+				}
+			]
+		},
+		{
+			"id": "d08e8292-4ad2-4ce8-9d01-a4317dbb7164",
+			"name": "EmployeeIdDependent",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/dependent",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the response has the Id field present": true,
+				"Check the response message that the entry is deleted": true
+			},
+			"testPassFailCounts": {
+				"Check that the response has the Id field present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the response message that the entry is deleted": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Check that the response has the Id field present": true,
+					"Check the response message that the entry is deleted": true
+				}
+			]
+		},
+		{
+			"id": "5d972df5-b4d0-45cd-96d2-ab94e8e04fb6",
+			"name": "EmployeeIdWorkExperience",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/work-experience",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the response has the company field present": true
+			},
+			"testPassFailCounts": {
+				"Check that the response has the company field present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Check that the response has the company field present": true
+				}
+			]
+		},
+		{
+			"id": "d7db5716-e23b-485c-b39d-018d024d11d3",
+			"name": "EmployeeIdWorkExperience",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/work-experience",
+			"time": 230,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the employee with id 10 has seqId 1": true
+			},
+			"testPassFailCounts": {
+				"Check that the employee with id 10 has seqId 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				230
+			],
+			"allTests": [
+				{
+					"Check that the employee with id 10 has seqId 1": true
+				}
+			]
+		},
+		{
+			"id": "1005a716-e4ac-4556-bd6d-5e7b779bebe6",
+			"name": "EmployeeIdWorkExperience",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/work-experience",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the employee with id 10 is a manager": true
+			},
+			"testPassFailCounts": {
+				"Check that the employee with id 10 is a manager": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Check that the employee with id 10 is a manager": true
+				}
+			]
+		},
+		{
+			"id": "c446d120-3ff2-4dbc-81a0-ef7c2e581512",
+			"name": "EmployeeIdWorkExperience",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/work-experience",
+			"time": 223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the response has the Id field present": true,
+				"Check that the entry was successfully deleted": true
+			},
+			"testPassFailCounts": {
+				"Check that the response has the Id field present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the entry was successfully deleted": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Check that the response has the Id field present": true,
+					"Check that the entry was successfully deleted": true
+				}
+			]
+		},
+		{
+			"id": "471197ac-ba81-4567-a04b-1d2a245e2081",
+			"name": "employeeIdSupervisor",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/10/supervisor",
+			"time": 223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the response it's an object": true
+			},
+			"testPassFailCounts": {
+				"Check that the response it's an object": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Check that the response it's an object": true
+				}
+			]
+		},
+		{
+			"id": "89e4b447-a073-42a3-8349-0f8ac325a79c",
+			"name": "employeeIdSupervisor",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/2/supervisor",
+			"time": 223,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Check the response message about mandatory field": true
+			},
+			"testPassFailCounts": {
+				"Check the response message about mandatory field": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Check the response message about mandatory field": true
+				}
+			]
+		},
+		{
+			"id": "6371da88-a9f4-4c67-9901-6614d18848af",
+			"name": "employeeIdSupervisor",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/2/supervisor",
+			"time": 227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the response has the supervisorId field present": true
+			},
+			"testPassFailCounts": {
+				"Check that the response has the supervisorId field present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				227
+			],
+			"allTests": [
+				{
+					"Check that the response has the supervisorId field present": true
+				}
+			]
+		},
+		{
+			"id": "0f6b334b-9b29-43cd-8297-374163708eb9",
+			"name": "employeeIdSupervisor",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/2/supervisor",
+			"time": 237,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the reportingMethod is indirect": true
+			},
+			"testPassFailCounts": {
+				"Check that the reportingMethod is indirect": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				237
+			],
+			"allTests": [
+				{
+					"Check that the reportingMethod is indirect": true
+				}
+			]
+		},
+		{
+			"id": "83b9d568-9b25-43c5-aa6a-4c49dd4510fe",
+			"name": "employeeIdSupervisor",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/2/supervisor",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the person with id 2 is Linda Jane Anderson": true,
+				"Check that the the supervisor of Linda is the person with id 5": true
+			},
+			"testPassFailCounts": {
+				"Check that the person with id 2 is Linda Jane Anderson": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the the supervisor of Linda is the person with id 5": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Check that the person with id 2 is Linda Jane Anderson": true,
+					"Check that the the supervisor of Linda is the person with id 5": true
+				}
+			]
+		},
+		{
+			"id": "a4d8207e-501f-4161-80d1-63e051700698",
+			"name": "employeeIdSupervisor",
+			"url": "https://opensource-demo.orangehrmlive.com/api/v1/employee/2/supervisor",
+			"time": 229,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that the entry with id 2 is successfully deleted": true
+			},
+			"testPassFailCounts": {
+				"Check that the entry with id 2 is successfully deleted": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				229
+			],
+			"allTests": [
+				{
+					"Check that the entry with id 2 is successfully deleted": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6958,
+	"collection": {
+		"requests": [
+			{
+				"id": "3e2bd79c-c7a7-4cde-b444-85baa79d2b9d",
+				"method": "POST"
+			},
+			{
+				"id": "8bb873e7-c911-4a81-b6e8-2baa0456f509",
+				"method": "GET"
+			},
+			{
+				"id": "eee879bd-b948-484b-8d35-650c4334a537",
+				"method": "GET"
+			},
+			{
+				"id": "3720c311-e3eb-4edd-89d6-301ab261bf7b",
+				"method": "GET"
+			},
+			{
+				"id": "010777a6-39a9-452a-b010-bff5217d1c39",
+				"method": "GET"
+			},
+			{
+				"id": "c7c54c61-89d0-42e8-a457-c3d06d043ee8",
+				"method": "POST"
+			},
+			{
+				"id": "e37e47e2-e0fa-4f37-9314-c1d86be8e4b3",
+				"method": "PUT"
+			},
+			{
+				"id": "03255684-42a9-485e-b01a-57731a9520e1",
+				"method": "POST"
+			},
+			{
+				"id": "1679c2bc-1e84-4aa5-a1e2-b8251b941ff7",
+				"method": "POST"
+			},
+			{
+				"id": "c0b2c6f9-c3f0-4e14-b764-897b7e169a24",
+				"method": "PUT"
+			},
+			{
+				"id": "1fbaf076-ec73-4b8a-8a72-94e42c8f7d8e",
+				"method": "GET"
+			},
+			{
+				"id": "b5e61832-4b03-4d51-a208-9ae51c535c75",
+				"method": "POST"
+			},
+			{
+				"id": "3e32b403-ae7f-4496-9179-15ffff263206",
+				"method": "POST"
+			},
+			{
+				"id": "6134273a-26c4-45e9-921a-591c6dea0f0a",
+				"method": "PUT"
+			},
+			{
+				"id": "fdc7a20f-df71-475c-a866-5883af7e901c",
+				"method": "GET"
+			},
+			{
+				"id": "d08e8292-4ad2-4ce8-9d01-a4317dbb7164",
+				"method": "DELETE"
+			},
+			{
+				"id": "5d972df5-b4d0-45cd-96d2-ab94e8e04fb6",
+				"method": "POST"
+			},
+			{
+				"id": "d7db5716-e23b-485c-b39d-018d024d11d3",
+				"method": "PUT"
+			},
+			{
+				"id": "1005a716-e4ac-4556-bd6d-5e7b779bebe6",
+				"method": "GET"
+			},
+			{
+				"id": "c446d120-3ff2-4dbc-81a0-ef7c2e581512",
+				"method": "DELETE"
+			},
+			{
+				"id": "471197ac-ba81-4567-a04b-1d2a245e2081",
+				"method": "GET"
+			},
+			{
+				"id": "89e4b447-a073-42a3-8349-0f8ac325a79c",
+				"method": "POST"
+			},
+			{
+				"id": "6371da88-a9f4-4c67-9901-6614d18848af",
+				"method": "POST"
+			},
+			{
+				"id": "0f6b334b-9b29-43cd-8297-374163708eb9",
+				"method": "PUT"
+			},
+			{
+				"id": "83b9d568-9b25-43c5-aa6a-4c49dd4510fe",
+				"method": "GET"
+			},
+			{
+				"id": "a4d8207e-501f-4161-80d1-63e051700698",
+				"method": "DELETE"
+			}
+		]
+	}
+}
