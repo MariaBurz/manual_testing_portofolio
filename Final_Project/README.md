@@ -73,7 +73,7 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 
 Multiple reports were generated. The following report was generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report reflects the proportion of the passed and failed tests. 
 
-![PeriodicReport_Chart](https://user-images.githubusercontent.com/110056890/181305981-817b5db5-f94a-44fa-99a7-14b8425b9d03.png)
+![Bugs](https://user-images.githubusercontent.com/110056890/181917351-eddaabf5-f97a-43c4-b131-3ef5fa402732.png)
 
 ## 1.3 Test Analysis
 
