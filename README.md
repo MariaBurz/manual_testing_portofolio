@@ -148,4 +148,4 @@ Test execution chart was generated, the final report shows.... -> describe the f
 
 # 2 SQL section
 
-Created a database named 'orangehrm' and a table named 'dependents' with all the columns needed to save data per specifications. Performed different queries inside the sql file: dependents.sql
+In this section I've created a database named 'orangehrm' and  3 tables named 'users', 'job' and 'grade' with all the columns needed to save data per specifications. I've performed different queries inside the sql file:  orangeHRM.sql [orangeHRM]() 
