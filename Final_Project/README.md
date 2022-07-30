@@ -75,6 +75,8 @@ Multiple reports were generated. The following report was generated to reflect t
 
 ![Bugs](https://user-images.githubusercontent.com/110056890/181917351-eddaabf5-f97a-43c4-b131-3ef5fa402732.png)
 
+![JIRAReport_OrangeHRM](https://user-images.githubusercontent.com/110056890/181923881-80af38b3-eb28-4b27-9f83-6545fa3bbe7c.png)
+
 ## 1.3 Test Analysis
 
 ### Review - Admin Module “User Management” and “Job”
@@ -145,16 +147,14 @@ Exit criteria was evaluated and a couple of bugs are in progress.
 
 The traceability matrix was generated and can be found here: [Traceability_matrix](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix.pdf)
 
-Thereby, a number of 6 total bugs were found, from which the priority is as follow: 1 is highest, 3 are medium and 2 are low.
-
 Test execution chart was generated, the final report shows:
 
-![JIRAReport_OrangeHRM](https://user-images.githubusercontent.com/110056890/181916356-5050fc1f-6cc1-43cc-bd14-ab8fc871c824.png)
+![JIRAReport](https://user-images.githubusercontent.com/110056890/181923678-7698a0ee-505d-43d8-aefe-6b900823669a.png)
 
 A number of 18 test cases were planned for execution and all of them were executed.
 
 Test execution chart was generated and the final report shows that a number of 6 tests have failed of a total of 18.
-
+Thereby, a number of 6 total bugs were found, from which the priority is as follow: 1 is highest, 3 are medium and 2 are low.
 
 As the Exit criteria were not met and satisfied, is suggested to go back to the developer team and get done the bugs 'in progress', then the Testing team will retest the test cases in question.
 
