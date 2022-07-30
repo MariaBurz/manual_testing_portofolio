@@ -91,12 +91,12 @@ Multiple reports were generated. The following report was generated to reflect t
 ### Test Conditions
 The testing process will be executed based on the above requirements for the Admin Module. The following test conditions were found:
 
-Enter data only for mandatory fields and check that the user is created;
-Leave mandatory fields empty and check that the user cannot be created;
-Upload file that is larger that the allowed size; 
-Checking that the app meets the specification from business requirements;
-View the color and format of the buttons;
-View the page at a different resolution.
+* Enter data only for mandatory fields and check that the user is created;
+* Leave mandatory fields empty and check that the user cannot be created;
+* Upload file that is larger that the allowed size; 
+* Checking that the app meets the specification from business requirements;
+* View the color and format of the buttons;
+* View the page at a different resolution.
 
 ## 1.4 Test Design
 
@@ -108,7 +108,7 @@ Test cases:
 
 The test cases with steps can be viewed here: [JIRA_TestCases.pdf](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_OrangeHRMTestCases.pdf)
 
-For the Dependants API, the following checklist was generated: API_test_checklist.csv
+For the OrangeHRM API, the following checklist was generated: API_test_checklist.csv
 
 ## 1.5 Test Implementation
 
@@ -122,6 +122,7 @@ For the Dependants API, the following checklist was generated: API_test_checklis
 ## 1.6 Test Execution
 
 Test cases are executed on the created test Cycle summary: Dependents_cycle_summary_execution.pdf
+
 Bugs have been created based on the failed tests. The complete bug reports can be found here: Dependents_created_bugs.pdf
 Date format is not dd/mm/yyyy
 Future "Date of Birth" can be selected from calendar
@@ -131,10 +132,6 @@ Relationship "parent" is missing
 API tests are executed based on the checklist. 
 The collection used can be found here: JSON file with the collection of requests created for the Dependents API
 Full regression testing is needed after the bugs are fixed
-
-Test cases are executed on the created test Cycle summary: cycle_summary_execution.pdf
-Bugs have been created based on the failed tests. The complete bug reports can be found here: created_bugs.pdf
-enter here bug titles
 
 ## 1.7 Test Completion
 
