@@ -94,11 +94,9 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
 
 Test cases:
 
-![TestCases](https://user-images.githubusercontent.com/110056890/181313200-2a8fa67d-e3c9-40e5-b53f-de969b94fd63.png)
+![JIRA_TestCasesSummary](https://user-images.githubusercontent.com/110056890/181916126-f5345666-8abb-44c1-8026-e5c0c06e5d97.png)
 
-The test cases with steps can be viewed here: test_cases.pdf
-
-The test cases with steps can be viewed here: Dependents_test_cases.pdf
+The test cases with steps can be viewed here: [JIRA_TestCases.pdf]()
 
 For the Dependants API, the following checklist was generated: API_test_checklist.csv
 
