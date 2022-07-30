@@ -121,7 +121,7 @@ For the OrangeHRM API, the following checklist was generated: API_test_checklist
 
 ## 1.6 Test Execution
 
-Test cases are executed on the created test Cycle summary: [UserManagementModule](), [JobModule](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_CycleSummary_JobModule.pdf), [UserInteraction]()
+Test cases are executed on the created test Cycle summary: [UserManagementModule](), [JobModule](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_CycleSummary_JobModule.pdf), [UserInteraction](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_CycleSummary_UserInteraction.pdf)
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: [Admin_Module_Bugs](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix_Bugs.pdf)
 
