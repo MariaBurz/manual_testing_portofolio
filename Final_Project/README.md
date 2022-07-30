@@ -133,19 +133,18 @@ enter here bug titles
 
 ![TracebilityMatrix_UserInteraction](https://user-images.githubusercontent.com/110056890/181340251-32b93998-3991-4faa-ba69-822f503e7f3e.png)
 
+Exit criteria was evaluated and a couple of bugs are in progress
 
-As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
-The traceability matrix was generated and can be found here: Traceability_matrix.csv
-Test execution chart was generated, the final report shows that a number 5 tests have failed of a total of 23
-A number of 23 test cases were planned for execution and all of them were executed
-A number of 5 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
+The traceability matrix was generated and can be found here: [Traceability_matrix](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix.pdf)
 
-Exit criteria was evaluated and passed
+Test execution chart was generated, the final report shows:
 
-The traceability matrix was generated and can be found here: [Traceability_matrix]()
+![JIRAReport_OrangeHRM](https://user-images.githubusercontent.com/110056890/181916356-5050fc1f-6cc1-43cc-bd14-ab8fc871c824.png)
 
-Test execution chart was generated, the final report shows.... -> describe the final report
--> enter here test execution report/chart
+A number of 18 test cases were planned for execution and all of them were executed.
+Test execution chart was generated and the final report shows that a number of 6 tests have failed of a total of 18.
+Thereby, a number of 6 total bugs were found, from which the priority is as follow: 1 is highest, 3 are medium and 2 are low.
+As the Exit criteria were not met and satisfied, is suggested to go back to the developer team and get done the bugs 'in progress', then the Testing team will retest the test cases in question.
 
 # 2 SQL section
 
