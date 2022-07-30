@@ -108,7 +108,10 @@ Test cases:
 
 The test cases with steps can be viewed here: [JIRA_TestCases.pdf](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_OrangeHRMTestCases.pdf)
 
-For the OrangeHRM API, the following checklist was generated: [API summary]()()
+For the OrangeHRM API, the following checklist was generated: 
+
+![PostmanSummary1](https://user-images.githubusercontent.com/110056890/181925221-7aacd662-608d-4539-8a6f-1ca75ad551c8.png)
+![PostmanSummary2](https://user-images.githubusercontent.com/110056890/181925228-6b0c57e1-0ca4-4b3c-a001-f06e5e336975.png)
 
 ## 1.5 Test Implementation
 
@@ -126,7 +129,8 @@ Test cases are executed on the created test Cycle summary: [UserManagementModule
 Bugs have been created based on the failed tests. The complete bug reports can be found here: [Admin_Module_Bugs](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix_Bugs.pdf)
 
 API tests are executed based on the checklist. 
-The collection used can be found here: JSON file with the collection of requests created for the OrangeHRM API
+The collection used can be found here: [JSON file]() with the collection of requests created for the OrangeHRM API.
+The results of the test in Postman can be seen here: [Tests_Results_Postman]()
 
 ## 1.7 Test Completion
 
