@@ -128,7 +128,7 @@ Test cases are executed on the created test Cycle summary: [UserManagementModule
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: [Admin_Module_Bugs](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Traceability_Matrix_Bugs.pdf)
 
-API tests are executed based on the checklist. 
+API tests are executed based on the checklist. The test cases with the end-points and requests can be seen here: [PostmanAPI_End-Points&Requests&TestCases](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/OrangeHRM.postman_API_End-points.pdf) 
 The collection used can be found here: [JSON file](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/orangeHRM.postman_test_run.json) with the collection of requests created for the OrangeHRM API.
 The results of the test in Postman can be seen here: [Tests_Results_Postman](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/Postman_TestResults.pdf)
 
@@ -159,4 +159,4 @@ As the Exit criteria were not met and satisfied, IT is suggested to go back to t
 
 # 2 SQL section
 
-In this section I've created a database named 'orangehrm' and  3 tables named 'users', 'job' and 'grade' with all the columns needed to save data per specifications. I've performed different queries inside the sql file: [orangeHRM.sql](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/OrangeHRM.sql)
+In this section I've created a database named 'orangehrm' and  3 tables named 'users', 'job' and 'grade' with all the columns needed to save data per specifications. I've performed different queries inside the sql file: [orangeHRMDatabase.sql](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/OrangeHRM.sql)
