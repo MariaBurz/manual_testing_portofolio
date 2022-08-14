@@ -28,9 +28,9 @@ Tools used: JIRA, Zephyr Squad, Postman, MySQL.
 
 ## 1.1 Test Planning
 
-The Test Plan is designed to describe all details of testing for the X module from the OrangeHRM application.
+The Test Plan is designed to describe all details of testing for the Admin module from the OrangeHRM application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
 
 ### 1.1.1 Roles assigned to the project and persons allocated
 
@@ -55,9 +55,9 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 ### 1.1.4 Test scope
 
-Tests in scope: All the feature of User Management submenu and Job submenu from Admin Module which were defined in the business requirements and specifications need to be tested: functional testing, GUI testing and API testing.
+Tests in scope: All the features of User Management submenu and Job submenu from Admin Module which were defined in the business requirements and specifications need to be tested: functional testing, GUI testing and API testing, compatibility testing with multiple browsers.
 
-Tests not in scope: performance testing, integration testing of the Admin Module to other modules, compatibility testing with multiple browsers.
+Tests not in scope: performance testing, integration testing of the Admin Module to other modules.
 
 ### 1.1.5 Risks detected
 
@@ -77,7 +77,7 @@ Multiple reports were generated. The following report was generated to reflect t
 
 ## 1.3 Test Analysis
 
-### Review - Admin Module “User Management” and “Job”
+### Business Requirements Review - Admin Module “User Management” and “Job”
 
 -	The color of the “Cancel” button seems to be disabled;
 -	The “delete” button appear to be active even though we didn’t check a box next to the “Username”;
@@ -100,7 +100,7 @@ The testing process will be executed based on the above requirements for the Adm
 
 ## 1.4 Test Design
 
-Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are:
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are: 
 
 Test cases:
 
@@ -155,7 +155,7 @@ Thereby, a number of 6 total bugs were found, from which the priority is as foll
 
 ![Bugs](https://user-images.githubusercontent.com/110056890/181924498-d10803f7-7677-42aa-a73f-28151c192150.png)
 
-As the Exit criteria were not met and satisfied, is suggested to go back to the developer team and get done the bugs 'in progress', then the Testing team will retest the test cases in question.
+As the Exit criteria were not met and satisfied, IT is suggested to go back to the development team and prioritise the remaining 'in progress' bugs, then schedule the tests in question to be tested by the Testing team.
 
 # 2 SQL section
 
