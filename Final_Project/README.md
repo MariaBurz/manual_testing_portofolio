@@ -57,7 +57,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 Tests in scope: All the features of User Management submenu and Job submenu from Admin Module which were defined in the business requirements and specifications need to be tested: functional testing, GUI testing and API testing, compatibility testing with multiple browsers.
 
-Tests not in scope: performance testing, integration testing of the Admin Module to other modules, user interaction (user-friendly app).
+Tests not in scope: performance testing, integration testing of the Admin Module to other modules.
 
 ### 1.1.5 Risks detected
 
