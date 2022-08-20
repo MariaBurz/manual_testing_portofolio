@@ -57,13 +57,13 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 Tests in scope: All the features of User Management submenu and Job submenu from Admin Module which were defined in the business requirements and specifications need to be tested: functional testing, GUI testing and API testing, compatibility testing with multiple browsers.
 
-Tests not in scope: performance testing, integration testing of the Admin Module to other modules.
+Tests not in scope: performance testing, integration testing of the Admin Module to other modules, user interaction (user-friendly app).
 
 ### 1.1.5 Risks detected
 
-Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment
+Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment;
 
-Product risks: validation constraints on the fields might be too restrictive to the end-user
+Product risks: validation constraints on the fields might be too restrictive to the end-user.
 
 ### 1.1.6 Evaluating entry criteria
 
@@ -80,8 +80,8 @@ Multiple reports were generated. The following report was generated to reflect t
 ### Business Requirements Review - Admin Module “User Management” and “Job”
 
 -	The color of the “Cancel” button seems to be disabled;
--	The “delete” button appear to be active even though we didn’t check a box next to the “Username”;
--	Figure 1.5. Job Title List is not complete, and we cannot see if the filter exists to “Job Description”. Also, in this picture, the “Job Specification” and “Note” are missing.
+-	The “delete” button appears to be active even though we didn’t check a box next to the “Username”;
+-	The Figure 1.5. "Job Title List" is not complete, and we cannot see if the filter exists to “Job Description”. Also, in this picture, the “Job Specification” and “Note” fields are missing.
 -	There is no specification about what kind of document the users can upload by clicking the “Browse” button from “Add Job title” window; 
 -	The maximum number of characters from “Note” is not specified; 
 -	On the “Pay grade” module, there is no consistency between screenshots. Figure 1.7 has defined a level 3 grade with minimum and maximum salary, below on figure 1.8 there is defined a level 1 grade with the same minimum and maximum salary. 
@@ -100,7 +100,7 @@ The testing process will be executed based on the above requirements for the Adm
 
 ## 1.4 Test Design
 
-Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are: 
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are: static analysis (informal reviews), dynamic (equivalence partitioning, specification-based, state transition).  
 
 Test cases:
 
