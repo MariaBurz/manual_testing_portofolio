@@ -102,9 +102,9 @@ The testing process will be executed based on the above requirements for the Adm
 
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are: static analysis (informal reviews), dynamic (equivalence partitioning, specification-based, state transition).  
 
-Test cases:
+Test conditions:
 
-![JIRA_TestCasesSummary](https://user-images.githubusercontent.com/110056890/181916126-f5345666-8abb-44c1-8026-e5c0c06e5d97.png)
+![JIRA_TestConditions](https://user-images.githubusercontent.com/110056890/190857500-f019ba25-d922-4820-9744-bc9258a90086.png)
 
 The test cases with steps can be viewed here: [JIRA_TestCases.pdf](https://github.com/MariaBurz/manual_testing_portofolio/blob/main/Final_Project/JIRA_OrangeHRMTestCases.pdf)
 
