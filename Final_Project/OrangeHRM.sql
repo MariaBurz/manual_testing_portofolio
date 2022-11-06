@@ -1,4 +1,4 @@
-/* The difference between DDL, DML si DQL
+/* The difference between DDL, DML and DQL
 DDL (Data Definition Language) - define the database - create databases, tables or modify the structure of a table, add columns;
 DML (Data Manipulation Language) - manipulate the database - manage the information from the database with the INSERT, UPDATE, DELETE functions;
 DQL (Data Query Language) - query the database - extract information from the database - includes a subset of instructions.
