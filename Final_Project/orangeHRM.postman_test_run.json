@@ -10,7 +10,7 @@
 	"results": [
 		{
 			"id": "3e2bd79c-c7a7-4cde-b444-85baa79d2b9d",
-			"name": "generateToken1",
+			"name": "generateToken",
 			"url": "https://opensource-demo.orangehrmlive.com/index.php/oauth/issueToken",
 			"time": 523,
 			"responseCode": {
