@@ -34,7 +34,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 ### 1.1.1 Roles assigned to the project and persons allocated
 
-- Project manager – Pop Ioan
+- Project manager – Popa Ioan
 - Product Owner – Popovici Ioana
 - Developer – Popescu Ilie
 - QA Tester – Burz Maria
